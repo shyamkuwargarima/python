@@ -17,4 +17,5 @@ class Bicycle(Vehicle):
 vehicles = [Car(), Bicycle()]
 
 for v in vehicles:
-v.move()
+
+ print(v.move())
